@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hamzeh.xxxooo.xnext">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="150dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="19dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    app:srcCompat="@drawable/download" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_marginTop="9dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:text="emzhzti1375227@gmail.com"
+                    android:textSize="19dp"
+                    android:textColor="#ff1500"/>
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="5dp"
+                android:background="#f96502"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
